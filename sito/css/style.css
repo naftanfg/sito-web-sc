@@ -1,0 +1,129 @@
+
+
+.outline{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 100%), url() no-repeat center center;
+    border: 1px solid #fff;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 9999999;
+    mix-blend-mode: difference;
+    transform: translate(-64px, -64px);
+    transition: all 0.2s cubic-bezier(.215, .61, .355, 1);
+    pointer-events: none;
+}
+
+.cursor{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 9999999;
+    transform: translate(-8px, -8px);
+    pointer-events: none;
+}
+
+.outline.tt{
+    background: #ff375f;
+    border-color: #ff375f;
+    width: 128px;
+    height: 128px;
+}
+
+.cursor.tt{
+    width: 0px;
+    height: 0px;
+}
+
+.outline.pp{
+    background: #320b9f;
+    border-color: #320b9f;
+    width: 128px;
+    height: 128px;
+}
+
+.cursor.pp{
+    width: 0px;
+    height: 0px;
+
+}
+.outline.aa{
+    background: #27ed00;
+    border-color: #27ed00;
+    width: 128px;
+    height: 128px;
+}
+
+.cursor.aa{
+    width: 0px;
+    height: 0px;
+}
+
+.outline.bb{
+    background: #0d3b04;
+    border-color: #0d3b04;
+    width: 128px;
+    height: 128px;
+}
+
+.cursor.bb{
+    width: 0px;
+    height: 0px;
+}
+
+.outline.ff{
+    background: #ffacac;
+    border-color: #ffacac;
+    width: 128px;
+    height: 128px;
+}
+
+.cursor.ff{
+    width: 0px;
+    height: 0px;
+}
+
+
+.cursor.ff{
+    width: 0px;
+    height: 0px;
+}
+
+.outline.ii{
+    background: #0dcaf0;
+    border-color: #0dcaf0;
+    width: 128px;
+    height: 128px;
+}
+
+.cursor.ii{
+    width: 0px;
+    height: 0px;
+}
+
+.outline.mm{
+    background: #91f00d;
+    border-color: #91f00d;
+    width: 128px;
+    height: 128px;
+}
+
+.cursor.mm{
+    width: 0px;
+    height: 0px;
+}
+
+.outline.img{
+background: linear-gradient(0deg, rgba(212, 13, 13, 0.233) 0%, rgba(211, 74, 74, 0.2) 100%), url() no-repeat center center;
+    width: 256px;
+    height: 256px;
+}
+
+.cursor.img{
+    width: 0px;
+    height: 0px;
+}
